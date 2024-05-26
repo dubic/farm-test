@@ -4,7 +4,7 @@ Farm test project
 ## APIs
 ### Submit Planted
 Submits the data for the crop planted.\
-URL: POST /farm/planted\
+URL: POST /farm/planted
 
 Request:
 ```
@@ -18,8 +18,8 @@ season	integer($int32)
 ```
 
 ### Submit Harvested
-Submits the data for the crop harvested.\
-URL: POST /farm/harvested\
+Submits the data for the crop harvested. \
+URL: POST /farm/harvested
 
 Request:
 ```
@@ -34,7 +34,7 @@ season	integer($int32)
 
 ### View total farm reports
 Returns a report of the total expected produce vs actual produce.\
-URL: GET /farm/reports\
+URL: GET /farm/reports
 
 Sample Response:
 ```json
