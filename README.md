@@ -63,3 +63,8 @@ Sample Response:
   }
 ]
 ```
+
+## Note:
+This project APIs can be executed by running the command from the root directory: 
+```./mvnw spring-boot:run```. 
+Then the APIs can be executed with this link: http://localhost:8080/swagger-ui/index.html#/
